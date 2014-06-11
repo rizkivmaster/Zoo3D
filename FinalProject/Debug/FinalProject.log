@@ -1,0 +1,29 @@
+﻿Build started 6/5/2012 1:37:31 PM.
+     1>Project "D:\FinalProject\FinalProject\FinalProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FinalProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\finalproject\finalproject\main.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\finalproject\finalproject\main.cpp(648): warning C4060: switch statement contains no 'case' or 'default' labels
+     1>d:\finalproject\finalproject\main.cpp(22): warning C4789: destination of memory copy is too small
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FinalProject\Debug\FinalProject.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FinalProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FinalProject\Debug\FinalProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FinalProject\Debug\FinalProject.lib" /MACHINE:X86 Debug\glm.obj
+         Debug\glmimg.obj
+         Debug\Main.obj
+         Debug\stdafx.obj
+         Debug\Texture.obj
+         LINK : D:\FinalProject\Debug\FinalProject.exe not found or not built by the last incremental link; performing full link
+         FinalProject.vcxproj -> D:\FinalProject\Debug\FinalProject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\FinalProject\Debug\FinalProject.exe;#1" /manifest Debug\FinalProject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\FinalProject.unsuccessfulbuild".
+         Touching "Debug\FinalProject.lastbuildstate".
+     1>Done Building Project "D:\FinalProject\FinalProject\FinalProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78

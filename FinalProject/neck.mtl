@@ -1,0 +1,33 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 02.06.2012 13:26:26
+
+newmtl horse1
+	Ns 39.3966
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\npc_horse4.tga
+	map_Kd maps\npc_horse4.tga
+	map_d maps\npc_horse4.tga
+	map_bump -bm 0.0200 maps\npc_horse_normal.tga
+
+newmtl horse
+	Ns 55.7152
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\npc_horse4.tga
+	map_Kd maps\npc_horse4.tga
+	map_bump -bm 0.0200 maps\npc_horse_normal.tga
